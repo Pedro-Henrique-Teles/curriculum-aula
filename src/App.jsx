@@ -4,6 +4,7 @@ import Section from "./components/Section";
 import Skills from "./components/Skills";
 import AdditionalInfo from "./components/AdditionalInfo";
 import "./App.css";
+import ExperienceItem from "./components/ExperienceItem";
 
 function App() {
   return (
@@ -29,12 +30,20 @@ function App() {
         </Section>
 
         <Section title="Experiência Profissional">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
-            dolores cupiditate dolorem nisi earum dolor alias natus, nulla
-            asperiores laudantium labore harum distinctio quis reiciendis
-            deleniti. Obcaecati fugiat repellendus accusantium!
-          </p>
+          <ExperienceItem 
+          role={"Desenvolvedor Júnior"}
+          company={"Cercred"}
+          location={"Fontesville"}
+          date={"10/2024"}
+          description={"Trabalhava como desenvolvedor júnior"}
+          />
+          <ExperienceItem 
+          role={"Desenvolvedor Júnior"}
+          company={"Cercred"}
+          location={"Fontesville"}
+          date={"10/2024"}
+          description={"Trabalhava como desenvolvedor júnior"}
+          />
         </Section>
 
         <Section title="Formação Acadêmica">
