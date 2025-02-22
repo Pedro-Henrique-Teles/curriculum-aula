@@ -1,10 +1,12 @@
-import Header from "./components/Header";
-import ProfilePicture from "./components/ProfilePicture";
-import Section from "./components/Section";
-import Skills from "./components/Skills";
-import AdditionalInfo from "./components/AdditionalInfo";
+import {
+  AdditionalInfo,
+  ExperienceItem,
+  Header,
+  ProfilePicture,
+  Section,
+  Skills,
+} from "./components";
 import "./App.css";
-import ExperienceItem from "./components/ExperienceItem";
 
 function App() {
   return (
@@ -30,19 +32,20 @@ function App() {
         </Section>
 
         <Section title="Experiência Profissional">
-          <ExperienceItem 
-          role={"Desenvolvedor Júnior"}
-          company={"Cercred"}
-          location={"Fontesville"}
-          date={"10/2024"}
-          description={"Trabalhava como desenvolvedor júnior"}
+          <ExperienceItem
+            role={"Desenvolvedor Júnior"}
+            company={"Cercred"}
+            location={"Fontesville"}
+            date={"10/2024"}
+            description={"Trabalhava como desenvolvedor júnior"}
           />
-          <ExperienceItem 
-          role={"Desenvolvedor Júnior"}
-          company={"Cercred"}
-          location={"Fontesville"}
-          date={"10/2024"}
-          description={"Trabalhava como desenvolvedor júnior"}
+
+          <ExperienceItem
+            role={"Desenvolvedor Júnior"}
+            company={"Cercred"}
+            location={"Fontesville"}
+            date={"10/2024"}
+            description={"Trabalhava como desenvolvedor júnior"}
           />
         </Section>
 
